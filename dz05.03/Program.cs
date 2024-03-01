@@ -15,6 +15,9 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
+        Console.InputEncoding = System.Text.Encoding.Unicode;
+
         int number = 8;
         bool isFibonacci = IsFibonacci(number);
         Console.WriteLine($"Число {number} є числом Фібоначчі: {isFibonacci}");
