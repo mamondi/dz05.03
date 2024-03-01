@@ -14,6 +14,8 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
+        Console.InputEncoding = System.Text.Encoding.Unicode;
         //Тут вводити межі діапазону
         int start = 1; int end = 5;
 
